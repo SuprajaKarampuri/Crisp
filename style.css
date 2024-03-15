@@ -195,13 +195,8 @@ header .icons #menu-bars{
     flex-wrap: wrap;
     padding-top: 9rem;
 }
-.home .home-slider .slide .content{
-    flex: 1 1 45rem;
-}
 
-.home .home-slider .slide .image{
-    flex: 1 1 45rem;
-}
+
 
 .home .home-slider .slide .image img{
    width:100% ;
@@ -345,11 +340,11 @@ header .icons #menu-bars{
         border-top: .1rem solid rgb(0,0,0,.2);
         border-bottom: .1rem solid rgb(0,0,0,.2);
         padding: 1rem;
-        clip-path: polygon(0 0,100% 0,100% 0,0 0);
+       
     }
 
     header .navbar.active{
-        clip-path: polygon(0 0, 100% 0,100% 100%, 0% 100%);
+        
     }
 
     header .navbar a{
